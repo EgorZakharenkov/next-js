@@ -1,0 +1,75 @@
+.header {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.header .links {
+  display: flex;
+  align-items: center;
+  gap: 51px;
+}
+.header .links a {
+  color: #FCFCFC;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+}
+.header .search input {
+  border-radius: 5px;
+  background: #302D2D;
+  padding: 13px 38px;
+  color: #E5E5E5;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.7px;
+}
+.header .register {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header .register .signUp {
+  border-radius: 5px;
+  background: #BD00FF;
+  padding: 11px 28px;
+  color: #FCFCFC;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-decoration: none;
+  border: 2px solid #BD00FF;
+  transition: 0.3s;
+}
+.header .register .signUp:hover {
+  color: #BD00FF;
+  background: #FCFCFC;
+}
+.header .register .signIn {
+  border-radius: 5px;
+  border: 2px solid #BD00FF;
+  background: rgba(48, 45, 45, 0.17);
+  padding: 11px 28px;
+  color: #FCFCFC;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.header .register .signIn:hover {
+  color: #FCFCFC;
+  background: #BD00FF;
+}
+
+/*# sourceMappingURL=style.css.map */
